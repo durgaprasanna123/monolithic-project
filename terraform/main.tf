@@ -4,7 +4,6 @@ access_key = "AKIARP447NTPJMLRJA5S"
 secret_key = "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"
 }
 
-
 resource "aws_instance" "key" { 
 ami = "ami-086ee6e5ed2ea343i4"
 key_name = "mykey"
@@ -14,5 +13,3 @@ tags = {
 Name = "project-instance"
 }
 }
-
-
